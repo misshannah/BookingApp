@@ -6,7 +6,7 @@
 
 # IntelliJ
 *.iml
-.gradle
+.gradle/
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -17,6 +17,7 @@
 .idea/gradle.xml
 .idea/dictionaries
 /.idea/assetWizardSettings.xml
+.idea/.name
 
 
 #Google Services (e.g. APIs or Firebase)
