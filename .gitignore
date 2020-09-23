@@ -1,14 +1,24 @@
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# IntelliJ
 *.iml
-.gradle
+.gradle/
 /local.properties
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/.name
+
+
+#Google Services (e.g. APIs or Firebase)
+google-services.json
