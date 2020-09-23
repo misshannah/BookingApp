@@ -9,14 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddListings" android:label="Add Listing"></activity>
-        <activity android:name=".BookingsAvailable" android:label="Bookings Available"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".authentication.AuthActivity">
+
+        </activity>
+        <activity
+            android:name=".listings.AddListings"
+            android:label="Add Listing" />
+        <activity
+            android:name=".listings.BookingsAvailable"
+            android:label="Bookings Available" />
+        <activity android:name=".listings.MainActivity">
+
         </activity>
     </application>
 

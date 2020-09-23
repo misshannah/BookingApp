@@ -1,8 +1,9 @@
-package com.hannah.mybookingapp
+package com.hannah.mybookingapp.listings
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hannah.mybookingapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

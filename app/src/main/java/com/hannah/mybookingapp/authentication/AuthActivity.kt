@@ -1,12 +1,12 @@
-package com.hannah.mybookingapp
+package com.hannah.mybookingapp.authentication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hannah.mybookingapp.R
 
-class BookingsAvailable : AppCompatActivity() {
-
+class AuthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bookings_available)
+        setContentView(R.layout.activity_auth)
     }
 }
