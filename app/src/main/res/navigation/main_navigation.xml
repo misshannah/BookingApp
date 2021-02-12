@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/home_destination">
+
+    <fragment
+        android:id="@+id/home_destination"
+        android:name="com.hannah.mybookingapp.ui.views.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_home"
+            app:destination="@id/home_destination"
+            app:launchSingleTop="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/listings"
+        android:name="com.hannah.mybookingapp.ui.views.ListingsFragment"
+        android:label="Listings"
+        tools:layout="@layout/fragment_listings">
+        <action
+            android:id="@+id/action_listings"
+            app:destination="@id/listings"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/action_home" />
+    </fragment>
+
+</navigation>
